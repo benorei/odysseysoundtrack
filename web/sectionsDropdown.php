@@ -55,7 +55,7 @@ o("A4 - Seasick Sailor Song", 21, 56);
 o("B4", 22, 45);
 o("C4", 23, 3);
 o("D4", 23, 32);
-o("E4 - Circe's Tango", 23, 57);
+o("E4 - Circe's Tango", 23, 54);
 o("F4", 24, 19);
 o("G4", 28, 48);
 o("H4", 25, 16);
