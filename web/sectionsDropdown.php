@@ -1,7 +1,7 @@
 <?php
 require("functions.php");
 ?>
-<select id="sections">
+<select id="sections" onchange="setTime('sections')">
 <?php
 od("Prologue");
 o("Beginning", 0, 0);
