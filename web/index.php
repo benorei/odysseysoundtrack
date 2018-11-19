@@ -1,1 +1,1 @@
-<?phprequire('../vendor/autoload.php');$app = new Silex\Application();$app['debug'] = true;$app->register(new Silex\Provider\MonologServiceProvider(), array(  'monolog.logfile' => 'php://stderr',));$app->get('/', function() use($app) {  $app['monolog']->addDebug('logging output.');});$app->run();?>
+<?phprequire('../vendor/autoload.php');$app = new Silex\Application();$app->get('/hello/{name}', function($name) use($app) {    return 'Hello '.$app->escape($name);});$app->run();?>
