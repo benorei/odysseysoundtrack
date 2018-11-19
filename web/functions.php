@@ -6,7 +6,13 @@ function o($n,$m,$s){
 }
 
 function od($n){
-	print "<optgroup label='$n'></optgroup>";
+	print "</optgroup><optgroup label='$n'>";
+}
+
+function setTime(id) {
+	var choiceDropdown = document.getElementById(id);
+	var choice = choiceDropdown.options[choiceDropdown.selectedIndex].value;
+	soundtrack.currentTime = choice;
 }
 
 ?>
