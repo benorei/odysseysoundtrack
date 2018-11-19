@@ -6,7 +6,7 @@ function o($n,$m,$s){
 }
 
 function od($n){
-	print "<optgroup label='$n'>";
+	print "</optgroup><optgroup label='$n'>";
 }
 
 ?>
