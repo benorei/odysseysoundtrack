@@ -9,10 +9,4 @@ function od($n){
 	print "</optgroup><optgroup label='$n'>";
 }
 
-function setTime(id) {
-	var choiceDropdown = document.getElementById(id);
-	var choice = choiceDropdown.options[choiceDropdown.selectedIndex].value;
-	soundtrack.currentTime = choice;
-}
-
 ?>

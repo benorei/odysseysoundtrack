@@ -3,8 +3,8 @@ require("functions.php");
 ?>
 <select id="sections" onchange="setTime('sections')">
 <?php
+o("Select a section", 0, 0);
 od("Prologue");
-o("Beginning", 0, 0);
 o("A - Prologue", 0, 6);
 o("B", 0, 36);
 o("C - Opening Chorus", 1, 25);
