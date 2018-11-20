@@ -3,105 +3,21 @@ require_once("functions.php");
 require_once("sections.php");
 ?>
 <select id="sections" onchange="setTime('sections')">
+<option value='0'>Choose a section</option>
 
 <?php
-o("Choose a section", 0);
-od("Prologue");
-o("A", $A0);
-o("B", $B0);
-o("C", $C0);
-o("D", $D0);
-o("E", $E0);
-od("Scene One");
-o("A1", $A1);
-o("B1", $B1);
-o("C1", $C1);
-o("D1", $D1);
-o("E1", $E1);
-o("F1", $F1);
-o("G1", $G1);
-o("H1", $H1);
-o("I1", $I1);
-o("J1", $J1);
-o("K1", $K1);
-o("L1", $L1);
-od("Scene Two");
-o("A2", $A2);
-o("B2", $B2);
-o("C2", $C2);
-o("D2", $D2);
-o("E2", $E2);
-o("F2", $F2);
-o("G2", $G2);
-o("H2", $H2);
-o("I2", $I2);
-o("J2", $J2);
-o("K2", $K2);
-o("L2", $L2);
-o("M2", $M2);
-o("N2", $N2);
-o("O2", $O2);
-o("P2", $P2);
-o("Q2", $Q2);
-o("R2", $R2);
-od("Scene Three");
-o("A3", $A3);
-o("B3", $B3);
-o("C3", $C3);
-o("D3", $D3);
-o("E3", $E3);
-o("F3", $F3);
-o("G3", $G3);
-od("Scene Four");
-o("A4", $A4);
-o("B4", $B4);
-o("C4", $C4);
-o("D4", $D4);
-o("E4", $E4);
-o("F4", $F4);
-o("G4", $G4);
-o("H4", $H4);
-o("I4", $I4);
-o("J4", $J4);
-o("K4", $K4);
-o("L4", $L4);
-o("M4", $M4);
-o("N4", $N4);
-o("O4", $O4);
-o("P4", $P4);
-od("Scene Five");
-o("A5", $A5);
-o("B5", $B5);
-o("C5", $C5);
-o("D5", $D5);
-o("E5", $E5);
-o("F5", $F5);
-o("G5", $G5);
-o("H5", $H5);
-o("I5", $I5);
-o("J5", $J5);
-o("K5", $K5);
-o("L5", $L5);
-o("M5", $M5);
-o("N5", $N5);
-o("O5", $O5);
-o("P5", $P5);
-o("Q5", $Q5);
-o("R5", $R5);
-o("S5", $S5);
-o("T5", $T5);
-od("Scene Six");
-o("A6", $A6);
-o("B6", $B6);
-o("C6", $C6);
-o("D6", $D6);
-o("E6", $E6);
-o("F6", $F6);
-o("G6", $G6);
-o("H6", $H6);
-o("I6", $I6);
-o("J6", $J6);
-o("K6", $K6);
-
+for($i=0; $s = $allSectionNames[$i]; $i++){
+	echo "<option value='${$s}'>$s</option>";
+	echo "<br>";
+	if($i==count($allSectionNames)){
+		break;
+	}
+	/*
+	$t = int(substr($allSectionNames[$i+1], 1));
+	if($t > int(substr($s, 1))){
+		echo "</optgroup><optgroup label='Scene $t'>";
+	}
+	*/
+}
 ?>
 </select>
