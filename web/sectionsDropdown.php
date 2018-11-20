@@ -3,7 +3,7 @@ require_once("functions.php");
 require_once("sections.php");
 ?>
 <select id="sections" onchange="setTime('sections')">
-<option value='0'>Choose a section</option>
+<option id="sectionsDefault" value='0'>Rehearsal Marks</option>
 
 <?php
 for($i=0; $s = $allSectionNames[$i]; $i++){
