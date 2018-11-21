@@ -26,6 +26,7 @@ o("Sailor Song Reprise", $B5);
 o("Sirens' Song", $F5);
 o("Third Ballad Interlude", $L5);
 o("Homecoming Quartet", $A6);
+o("Recognition", $C6);
 o("Finale", $H6);
 o("Bow Music", $K6);
 
