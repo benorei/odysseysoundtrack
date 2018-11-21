@@ -1,10 +1,11 @@
 <?php
 require_once("functions.php");
 require_once("sections.php");
-?>
 
-<select id="names" onchange="setTime('names')">
-<option id="namesDefault" value='0'>Songs</option>
+
+?>
+<select id='names' onchange="setTime('names')">
+<option id='namesDefault' value='0'>Songs</option>
 <?
 o("Prologue", $A0);
 o("Opening Chorus", $C0);

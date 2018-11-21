@@ -1,9 +1,10 @@
 <?php
 require_once("functions.php");
 require_once("sections.php");
+
 ?>
-<select id="sections" onchange="setTime('sections')">
-<option id="sectionsDefault" value='0'>Rehearsal Marks</option>
+<select id='sections' onchange="setTime('sections')">
+<option id='sectionsDefault' value='0'>Rehearsal Marks</option>
 <optgroup label="Prologue">
 <?php
 for($i=0; $s = $allSectionNames[$i]; $i++){
