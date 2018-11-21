@@ -11,7 +11,7 @@
 }
 #sectionName{
 	border-style: outset; 
-	background-color: #ccccff;
+	background-color: #dcc3ff;
 	font-size:14;
 }
 h1{
@@ -21,6 +21,7 @@ h1{
 	border-style: inset;
 	width:375px;
 	margin:auto;
+	background-color: #e3e9ea;
 }
 p{
 	text-align: left;
@@ -30,6 +31,9 @@ p{
 }
 #play-div{
 	text-align: center;
+	width: 33%;
+	margin: 0 auto;
+	border: outset;
 }
 img:hover{
 	opacity: 0.3;
@@ -38,5 +42,7 @@ img:hover{
 #playBtn{
 	display: inline-block;
 }
-.right-align{
+#play-container{
+	padding: 10px;
+	background-color: #ffffff;
 }
