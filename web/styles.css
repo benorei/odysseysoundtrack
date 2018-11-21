@@ -37,5 +37,5 @@ img:hover{
 	background-color: #808080;
 }
 #playBtn{
-	display: inline;
+	display: inline-block;
 }
