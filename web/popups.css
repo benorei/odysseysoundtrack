@@ -24,14 +24,14 @@
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .popup .show {
     visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
+    opacity: 1;
+    transition: opacity 1s linear;
 }
 
 .popup .hide {
     visibility: hidden;
-    -webkit-animation: fadeOut 1s;
-    animation: fadeOut 1s;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear;
 }
 
 /* Add animation (fade in the popup) */
