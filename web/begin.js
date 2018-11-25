@@ -21,7 +21,7 @@ if('standalone' in navigator &&
 }
 
 function onBeginLoad(){
-	if(!isMobileSafari){
+	if(!isMobileSafari && !isInAppForm){
 		popupDiv.innerHTML = "<span class='popuptext show' id='loadingPopup'>Loading soundtrack</span>";
 	}
 }
