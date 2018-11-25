@@ -1,12 +1,13 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
-<h1>Odyssey Soundtrack Section Picker</h1>
+<title>Odyssey Soundtrack Section Picker on Internet Explorer</title>
+<h1>Odyssey Soundtrack Section Picker on Internet Explorer</h1>
 <p class="text">Because you are using a version of Internet Explorer prior to IE9, this tool will not work for you. The <span class="code">&lt;audio&gt;</span> element is not supported prior to IE9, and this makes this tool unusable. If you would still like to use this tool, please use a device with either 1) a more recent version of IE, or 2) a different browser.</p>
 
 <script type="text/javascript">
 	if(
 		navigator.appName.indexOf("Internet Explorer")==-1 ||
-        navigator.appVersion.indexOf("MSIE 9")==-1 ||
-        navigator.appVersion.indexOf("MSIE 1")==-1
+        navigator.appVersion.indexOf("MSIE 9")!=-1 ||
+        navigator.appVersion.indexOf("MSIE 1")!=-1
     ){
 		window.location.href = "index.php";
     }
