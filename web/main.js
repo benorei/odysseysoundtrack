@@ -67,12 +67,12 @@ checkTime();
 
 function play(){
 	soundtrack.play();
-	playDiv.innerHTML = "<img src='images/pauseBtn.jpg' height='30' onclick='pause()'>";
+	playDiv.innerHTML = "<img src='images/buttons/pauseBtn.jpg' height='30' onclick='pause()'>";
 }
 
 function pause(){
 	soundtrack.pause();
-	playDiv.innerHTML = "<img src='images/playBtn.png' height='30' onclick='play()'>";
+	playDiv.innerHTML = "<img src='images/buttons/playBtn.png' height='30' onclick='play()'>";
 }
 
 function goBack(){
