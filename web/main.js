@@ -99,8 +99,13 @@ return(
 
 
 if(isInAppForm){
-	pageBody.style.overflow = "scroll";
-	pageBody.style.position = "fixed";
+	if(isInViewport(viewportCheckerDiv)){
+		pageBody.style.overflow = "hidden";
+		pageBody.style.position = "fixed";
+	}else{
+		pageBody.style.overflow = "scroll";
+		pageBody.style.positon = "";
+	}
 }
 
 if(isInAppForm){
