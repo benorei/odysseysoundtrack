@@ -7,7 +7,7 @@ if(navigator.userAgent.includes("Safari")){
 if(navigator.userAgent.includes("Mobile") && navigator.userAgent.includes("Safari")){
 	var isMobileSafari = true;
 }
-if(navigator.appName.indexOf("Internet Explorer")!=-1){     //yeah, he's using IE
+if(navigator.appName.indexOf("Internet Explorer")!=-1){     //yeah, s/he's using IE
 	var isBadIE=(
     	navigator.appVersion.indexOf("MSIE 9")==-1 &&   //v9 is ok
     	navigator.appVersion.indexOf("MSIE 1")==-1  //v10, 11, 12, etc. is fine too

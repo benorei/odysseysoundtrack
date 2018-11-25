@@ -1,6 +1,3 @@
-
-
-
 function setTime(id) {
 	var choiceDropdown = document.getElementById(id);
 	var choice = choiceDropdown.options[choiceDropdown.selectedIndex].value;
@@ -110,4 +107,8 @@ function updateScroll(){
 	}else{
 		document.ontouchmove = function(e){ return true; }
 	}
+}
+
+if(isInAppForm){
+	pageMain.style.borderStyle = "none";
 }

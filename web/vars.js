@@ -11,6 +11,7 @@ var browserMessageDiv = document.getElementById("browserMessage");
 var scrollableCheckerDiv = document.getElementById("scrollable-checker");
 var pageHTML = document.getElementById("html");
 var pageBody = document.getElementById("body");
+var pageMain = document.getElementById("main");
 
 var allSectionNames = [
 	"-", 
