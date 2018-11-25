@@ -98,6 +98,7 @@ return(
 	);
 };
 
+
 if(isInAppForm){
 	pageBody.style.overflow = "hidden";
 	pageBody.style.position = "fixed";
