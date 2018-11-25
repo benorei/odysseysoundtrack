@@ -106,8 +106,6 @@ if(isInAppForm){
 
 if(isInAppForm){
 	pageMain.style.borderStyle = "none";
-	//namesDropdown.style.fontSize = "17px";
-	//sectionsDropdown.style.fontSize = "17px";
 	sitenameHeadingH1.style.fontFamily = "Futura-CondensedExtraBold";
 	songNameSpan.style.fontSize = "16px";
 	sectionNameSpan.style.fontSize = "16px";
@@ -123,5 +121,5 @@ if(isMobileSafari && !isInAppForm){
 }
 
 if (!isInAppForm) {
-	browserMessageDiv.innerHTML = browserMessageDiv.innerHTML + "<span class='normal-text'>To use this tool in a full-screen app-like form, tap <span class='code'>Share</span> and then <span class='code'>Add&nbsp;to&nbsp;Home&nbsp;Screen</span> on your iPhone or iOS device.</span> "
+	browserMessageDiv.innerHTML = browserMessageDiv.innerHTML + "<span class='normal-text'>To use " + SITENAME + " in a full-screen app-like form, tap <span class='code'>Share</span> and then <span class='code'>Add&nbsp;to&nbsp;Home&nbsp;Screen</span> on your iPhone or iOS device.</span> "
 }
