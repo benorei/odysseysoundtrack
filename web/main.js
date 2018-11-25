@@ -55,7 +55,6 @@ function updateSectionName(time){
 function checkTime() {
 	var time = soundtrack.currentTime;
 	updateSectionName(time);
-	updateScroll();
 	setTimeout(checkTime, 500);
 }
 checkTime();
@@ -108,6 +107,8 @@ function updateScroll(){
 		document.ontouchmove = function(e){ return true; }
 	}
 }
+
+updateScroll(); // only want to do it on page load
 
 if(isInAppForm){
 	pageMain.style.borderStyle = "none";
