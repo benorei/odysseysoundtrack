@@ -106,8 +106,8 @@ if(isInAppForm){
 
 if(isInAppForm){
 	pageMain.style.borderStyle = "none";
-	namesDropdown.style.fontSize = "17px";
-	sectionsDropdown.style.fontSize = "17px";
+	//namesDropdown.style.fontSize = "17px";
+	//sectionsDropdown.style.fontSize = "17px";
 	sitenameHeadingH1.style.fontFamily = "Futura-CondensedExtraBold";
 	songNameSpan.style.fontSize = "16px";
 	sectionNameSpan.style.fontSize = "16px";
