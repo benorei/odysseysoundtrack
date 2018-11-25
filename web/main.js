@@ -99,7 +99,7 @@ return(
 
 
 if(isInAppForm){
-	pageBody.style.overflow = "hidden";
+	pageBody.style.overflow = "scroll";
 	pageBody.style.position = "fixed";
 }
 
