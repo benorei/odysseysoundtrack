@@ -100,7 +100,7 @@ return(
 
 
 function updateScroll(){
-	if(isInViewport(scrollableCheckerDiv) && isInAppForm){
+	if(isInAppForm){
 		document.ontouchmove = function(e){ e.preventDefault(); }
 
 	}else{
@@ -120,7 +120,7 @@ if(isInAppForm){
 	orMarker.style.fontSize = "12px";
 }
 
-if(isMobileSafari){
+if(isMobileSafari || isInAppForm){
 	browserMessageDiv.innerHTML = "Because Safari on iOS prefers to use smaller amounts of cellular data, you must click play for the soundtrack to load. You may have to wait after you click play for the soundtrack to start playing.";
 }
 
