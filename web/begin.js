@@ -20,18 +20,6 @@ if('standalone' in navigator &&
 	var isInAppForm = true;
 }
 
-if(isMobileSafari){
-	browserMessageDiv.innerHTML = "Because Safari on iOS prefers to use smaller amounts of cellular data, you must click play for the soundtrack to load. You may have to wait after you click play for the soundtrack to start playing.";
-}
-
-if(isMobileSafari && !isInAppForm){
-	browserMessageDiv.innerHTML = browserMessageDiv.innerHTML + "<br><br>";
-}
-
-if (!isInAppForm) {
-	browserMessageDiv.innerHTML = browserMessageDiv.innerHTML + "<span class='normal-text'>To use this tool in a full-screen app-type way, tap <span class='code'>Share</span> and then <span class='code'>Add&nbsp;to&nbsp;Home&nbsp;Screen</span> on your iPhone or iOS device.</span> "
-}
-
 function onBeginLoad(){
 	if(!isMobileSafari){
 		popupDiv.innerHTML = "<span class='popuptext show' id='loadingPopup'>Loading soundtrack</span>";
