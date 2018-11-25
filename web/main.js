@@ -112,6 +112,6 @@ function updateScroll(){
 if(isInAppForm){
 	pageMain.style.borderStyle = "none";
 	namesDropdown.style.fontSize = "50px";
-	sectionsDropdown.style.fontSize = "50px";
+	sectionsDropdown.style.fontSize = "17px";
 	sitenameHeadingH1.style.fontFamily = "Futura-CondensedExtraBold";
 }
