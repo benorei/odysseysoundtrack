@@ -12,6 +12,8 @@ var scrollableCheckerDiv = document.getElementById("scrollable-checker");
 var pageHTML = document.getElementById("html");
 var pageBody = document.getElementById("body");
 var pageMain = document.getElementById("main");
+var sectionsDropdown = document.getElementById("sections");
+var namesDropdown = document.getElementById("names");
 
 var allSectionNames = [
 	"-", 
