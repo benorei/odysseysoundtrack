@@ -21,6 +21,7 @@ o("Sailor Song", $A3);
 o("The First Mate Gets Greedy", $F3);
 o("Storm Scene", $G3);
 o("Seasick Sailor Song", $A4);
+o("Circe", $B4);
 o("Circe's Tango", $E4);
 o("The Piggies' Progress", $I4);
 o("Sailor Song Reprise", $B5);

@@ -39,7 +39,7 @@ var allSectionTimes = [
 var allSongTimes = [
 	0, 85, 
 	196, 
-	267,400, 525, 647, 722, 922, 999, 1124, 1232, 1269, 1316, 1434, 1531, 1725, 1826, 1991, 2216, 2366, 2515, 2632];
+	267,400, 525, 647, 722, 922, 999, 1124, 1232, 1269, 1316, 1365, 1434, 1531, 1649, 1725, 1826, 1991, 2216, 2366, 2515, 2632];
 
 var allSongNames = [
 	"Prologue", 
@@ -56,8 +56,11 @@ var allSongNames = [
 	"The First Mate Gets Greedy",
 	"Storm Scene",
 	"Seasick Sailor Song",
+	"Circe",
 	"Circes Tango",
-	"The Piggies Progress","Sailor Song Reprise",
+	"The Piggies Progress",
+	"Circe",
+	"Sailor Song Reprise",
 	"Sirens Song",
 	"Third Ballad Interlude",
 	"Homecoming Quartet",
