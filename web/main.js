@@ -116,6 +116,7 @@ if(isInAppForm){
 	sitenameHeadingH1.style.fontFamily = "Futura-CondensedExtraBold";
 	songNameSpan.style.fontSize = "16px";
 	sectionNameSpan.style.fontSize = "16px";
+	orMarker.style.fontSize = "12";
 }
 
 if(isMobileSafari){

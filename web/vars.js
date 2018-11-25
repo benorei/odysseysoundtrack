@@ -1,3 +1,4 @@
+
 var soundtrack = document.getElementById("soundtrack");
 var playDiv = document.getElementById("playBtn");
 var sectionsDropdownDefault = document.getElementById('sectionsDefault');
@@ -15,6 +16,7 @@ var pageMain = document.getElementById("main");
 var sectionsDropdown = document.getElementById("sections");
 var namesDropdown = document.getElementById("names");
 var sitenameHeadingH1 = document.getElementById("sitename-heading");
+var orMarker = document.getElementById("orMarker");
 
 var allSectionNames = [
 	"-", 
