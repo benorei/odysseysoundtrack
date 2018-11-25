@@ -14,6 +14,7 @@ var pageBody = document.getElementById("body");
 var pageMain = document.getElementById("main");
 var sectionsDropdown = document.getElementById("sections");
 var namesDropdown = document.getElementById("names");
+var sitenameHeadingH1 = document.getElementById("sitename-heading");
 
 var allSectionNames = [
 	"-", 
