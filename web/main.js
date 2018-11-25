@@ -98,17 +98,10 @@ return(
 	);
 };
 
-
-function updateScroll(){
-	if(isInAppForm){
-		document.ontouchmove = function(e){ e.preventDefault(); }
-
-	}else{
-		document.ontouchmove = function(e){ return true; }
-	}
+if(isInAppForm){
+	pageBody.style.overflow = "hidden";
+	pageBody.style.position = "fixed";
 }
-
-updateScroll(); // only want to do it on page load
 
 if(isInAppForm){
 	pageMain.style.borderStyle = "none";
