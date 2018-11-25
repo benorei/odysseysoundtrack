@@ -23,6 +23,18 @@ if('standalone' in navigator &&
 function onBeginLoad(){
 	if(!isMobileSafari){
 		popupDiv.innerHTML = "<span class='popuptext show' id='loadingPopup'>Loading soundtrack</span>";
+		
+		/*
+		var rect = document.getElementById("popup-locator").getBoundingClientRect();
+		var popupText = document.getElementById("loadingPopup");
+		popupText.style.position = "absolute;";
+		popupText.style.top = rect.top;
+		popupText.style.left = rect.left;
+		var playRect = document.getElementById("play-container").getBoundingClientRect();
+		popupText.style.width = playRect.width;
+		popupText.style.height = playRect.height;
+		*/
+
 	}
 }
 
