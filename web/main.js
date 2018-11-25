@@ -40,6 +40,7 @@ function updateSectionName(time){
 	sectionNameSpan.style.borderStyle = "solid";
 	sectionNameSpan.innerHTML = "&nbsp;" + currentSectionName + "&nbsp;";
 	songNameSpan.innerHTML = currentSongName;
+	title.innerHTML = currentSectionName + " " + currentSongName + " - " + SITENAME;
 
 	if(soundtrack.currentTime == 0){
 		songNameSpan.innerHTML = "Not Playing";
@@ -47,8 +48,6 @@ function updateSectionName(time){
 		sectionNameSpan.style.borderStyle = "none";
 		title.innerHTML = SITENAME;
 	}
-
-	title.innerHTML = currentSectionName + " " + currentSongName + " - " + SITENAME;
 
 }
 
