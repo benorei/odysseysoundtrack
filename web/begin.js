@@ -13,6 +13,9 @@ if(navigator.appName.indexOf("Internet Explorer")!=-1){     //yeah, s/he's using
     	navigator.appVersion.indexOf("MSIE 1")==-1  //v10, 11, 12, etc. is fine too
 	);
 }
+if(navigator.userAgent.match(/iPhone/i)){
+	var isiPhone = true;
+}
 if('standalone' in navigator && 
 		navigator.standalone && 
 		(/iphone|ipod|ipad/gi).test(navigator.platform) && 
