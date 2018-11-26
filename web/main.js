@@ -106,9 +106,6 @@ if(isInAppForm){
 		pageBody.style.overflow = "scroll";
 		pageBody.style.positon = "";
 	}
-	if(isiPhone){
-		screen.orientation.lock();
-	}
 }
 
 if(isInAppForm){
