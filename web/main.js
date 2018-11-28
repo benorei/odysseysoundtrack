@@ -97,7 +97,6 @@ return(
 	);
 };
 
-
 if(isInAppForm){
 	if(isInViewport(viewportCheckerDiv)){
 		pageBody.style.overflow = "hidden";
